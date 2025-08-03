@@ -29,6 +29,11 @@
             "widget": {
                 "download-app": "دانلود {{appName}}"
             }
+        },
+        "tv": {
+            "widget": {
+                "download-app": "دانلود {{appName}}"
+            }
         }
     },
     "subscription-link": {

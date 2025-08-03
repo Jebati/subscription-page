@@ -8,27 +8,12 @@
     },
     "installation-guide": {
         "widget": {
-            "add-subscription": "Добавить подписку",
+            "add-subscription": "Шаг 2",
             "add-subscription-button": "Добавить подписку",
-            "connect-and-use": "Подключите и используйте",
+            "connect-and-use": "Шаг 3",
             "installation": "Установка",
-            "select-device": "Выберите устройство",
-            "pc": "ПК"
-        },
-        "ios": {
-            "widget": {
-                "install-and-open-app": "Установите и откройте {{appName}}"
-            }
-        },
-        "android": {
-            "widget": {
-                "install-and-open-app": "Установите и откройте {{appName}}"
-            }
-        },
-        "pc": {
-            "widget": {
-                "download-app": "Скачайте {{appName}}"
-            }
+            "select-device": "Выберите устройство",            
+            "install-and-open-app": "Шаг 1"
         }
     },
     "subscription-link": {

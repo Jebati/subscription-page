@@ -2,7 +2,13 @@ import {
     IconCheck,
     IconCloudDownload,
     IconDownload,
+    IconError404,
+    IconError404Off,
     IconInfoCircle,
+    IconInfoOctagon,
+    IconInfoSmall,
+    IconInfoSquare,
+    IconInfoTriangle,
     IconStar
 } from '@tabler/icons-react'
 import { Box, Button, Group, Text, ThemeIcon, Timeline } from '@mantine/core'
@@ -10,12 +16,23 @@ import { useTranslation } from 'react-i18next'
 import { useEffect, useState } from 'react'
 
 import { IAppConfig } from '@shared/constants/apps-config/interfaces/app-list.interface'
-
-import { IPlatformGuideProps } from './interfaces/platform-guide.props.interface'
+import { useClipboard } from '@mantine/hooks'
+import { notifications } from '@mantine/notifications'
+import { useSubscriptionInfoStoreInfo } from '@entities/subscription-info-store'
+import { constructSubscriptionUrl } from '@shared/utils/construct-subscription-url'
 
 export interface IBaseGuideProps extends IPlatformGuideProps {
     firstStepTitle: string
-    platform: 'android' | 'ios' | 'pc'
+    platform:
+        | 'ios'
+        | 'android'
+        | 'windows'
+        | 'macos'
+        | 'linux'
+        | 'androidtv'
+        | 'appletv'
+        | 'steamdeck'
+        | 'router'
     renderFirstStepButton: (app: IAppConfig) => React.ReactNode
     currentLang: 'en' | 'fa' | 'ru'
 }
@@ -33,6 +50,8 @@ export const BaseInstallationGuideWidget = (props: IBaseGuideProps) => {
 
     const platformApps = getAppsForPlatform(platform)
     const [activeTabId, setActiveTabId] = useState<string>('')
+    
+    const { subscription } = useSubscriptionInfoStoreInfo()
 
     useEffect(() => {
         if (platformApps.length > 0) {
@@ -42,6 +61,24 @@ export const BaseInstallationGuideWidget = (props: IBaseGuideProps) => {
 
     const handleTabChange = (appId: string) => {
         setActiveTabId(appId)
+    }
+
+    const clipboard = useClipboard({ timeout: 10000 })
+
+    if (!subscription) return null
+
+    const subscriptionUrl = constructSubscriptionUrl(
+        window.location.href,
+        subscription.user.shortUuid
+    )
+
+    const handleCopy = () => {
+        notifications.show({
+            title: t('subscription-link.widget.link-copied'),
+            message: t('subscription-link.widget.link-copied-to-clipboard'),
+            color: 'teal'
+        })
+        clipboard.copy(subscriptionUrl)
     }
 
     const selectedApp =
@@ -172,7 +209,7 @@ export const BaseInstallationGuideWidget = (props: IBaseGuideProps) => {
                             ? getAppDescription(selectedApp, 'addSubscriptionStep')
                             : 'Add subscription description is not set'}
                     </Text>
-                    {selectedApp && (
+                    {selectedApp && !selectedApp?.addSubscriptionStep?.isCopyButton && (
                         <Button
                             onClick={() =>
                                 openDeepLink(
@@ -183,6 +220,11 @@ export const BaseInstallationGuideWidget = (props: IBaseGuideProps) => {
                             variant="filled"
                         >
                             {t('installation-guide.widget.add-subscription-button')}
+                        </Button>
+                    )}
+                    {selectedApp && selectedApp?.addSubscriptionStep?.isCopyButton && (
+                        <Button onClick={handleCopy}>
+                            {t('subscription-link.widget.copy-link')}
                         </Button>
                     )}
                 </Timeline.Item>
@@ -236,6 +278,44 @@ export const BaseInstallationGuideWidget = (props: IBaseGuideProps) => {
                             : 'Connect and use description is not set'}
                     </Text>
                 </Timeline.Item>
+
+                {selectedApp && selectedApp.additionalAfterConnectAndUseStep && (
+                    <Timeline.Item
+                        bullet={
+                            <ThemeIcon color="orange.2" radius="xl" size={26}>
+                                <IconInfoSmall size={26} />
+                            </ThemeIcon>
+                        }
+                        title={getStepTitle(
+                            selectedApp.additionalAfterConnectAndUseStep,
+                            'Additional step title is not set'
+                        )}
+                    >
+                        <Text c="dimmed" mb={16} size="sm" style={{ whiteSpace: 'pre-line' }}>
+                            {selectedApp.additionalAfterConnectAndUseStep.description[
+                                currentLang
+                            ] || selectedApp.additionalAfterConnectAndUseStep.description.en}
+                        </Text>
+                        <Group>
+                            {selectedApp.additionalAfterConnectAndUseStep.buttons.map(
+                                (button, index) => (
+                                    <Button
+                                        component="a"
+                                        href={button.buttonLink}
+                                        key={index}
+                                        target="_blank"
+                                        variant="light"
+                                    >
+                                        {getButtonText(button)}
+                                    </Button>
+                                )
+                            )}
+                        </Group>
+                        <Button onClick={handleCopy} size="xs">
+                            {t('subscription-link.widget.copy-link')}
+                        </Button>
+                    </Timeline.Item>
+                )}
             </Timeline>
         </Box>
     )

@@ -1,8 +1,13 @@
 import {
     IconBrandAndroid,
     IconBrandApple,
-    IconDeviceDesktop,
-    IconExternalLink
+    IconBrandDebian,
+    IconBrandSteam,
+    IconBrandUbuntu,
+    IconBrandWindows,
+    IconDeviceTv,
+    IconExternalLink,
+    IconRouter
 } from '@tabler/icons-react'
 import { Box, Button, Group, Select, Text } from '@mantine/core'
 import { useEffect, useLayoutEffect, useState } from 'react'
@@ -17,6 +22,7 @@ import { constructSubscriptionUrl } from '@shared/utils/construct-subscription-u
 import { useSubscriptionInfoStoreInfo } from '@entities/subscription-info-store'
 
 import { BaseInstallationGuideWidget } from './installation-guide.base.widget'
+import { FaLinux } from 'react-icons/fa6'
 
 export const InstallationGuideWidget = ({ appsConfig }: { appsConfig: IPlatformConfig }) => {
     const { t, i18n } = useTranslation()
@@ -24,8 +30,8 @@ export const InstallationGuideWidget = ({ appsConfig }: { appsConfig: IPlatformC
 
     const os = useOs()
 
-    const [currentLang, setCurrentLang] = useState<'en' | 'fa' | 'ru'>('en')
-    const [defaultTab, setDefaultTab] = useState('pc')
+    const [currentLang, setCurrentLang] = useState<'en' | 'fa' | 'ru'>('ru')
+    const [defaultTab, setDefaultTab] = useState('windows')
 
     useEffect(() => {
         const lang = i18n.language
@@ -49,9 +55,13 @@ export const InstallationGuideWidget = ({ appsConfig }: { appsConfig: IPlatformC
                 setDefaultTab('ios')
                 break
             case 'linux':
+                setDefaultTab('linux')
+                break
             case 'macos':
+                setDefaultTab('macos')
+                break
             case 'windows':
-                setDefaultTab('pc')
+                setDefaultTab('windows')
                 break
             default:
                 setDefaultTab('pc')
@@ -69,10 +79,16 @@ export const InstallationGuideWidget = ({ appsConfig }: { appsConfig: IPlatformC
     const hasPlatformApps = {
         ios: appsConfig.ios && appsConfig.ios.length > 0,
         android: appsConfig.android && appsConfig.android.length > 0,
-        pc: appsConfig.pc && appsConfig.pc.length > 0
+        windows: appsConfig.windows && appsConfig.windows.length > 0,
+        macos: appsConfig.macos && appsConfig.macos.length > 0,
+        linux: appsConfig.linux && appsConfig.linux.length > 0,
+        androidtv: appsConfig.androidtv && appsConfig.androidtv.length > 0,
+        appletv: appsConfig.appletv && appsConfig.appletv.length > 0,
+        steamdeck: appsConfig.steamdeck && appsConfig.steamdeck.length > 0,
+        router: appsConfig.router && appsConfig.router.length > 0
     }
 
-    if (!hasPlatformApps.ios && !hasPlatformApps.android && !hasPlatformApps.pc) {
+    if (!hasPlatformApps.ios && !hasPlatformApps.android && !hasPlatformApps.windows) {
         return null
     }
 
@@ -97,10 +113,40 @@ export const InstallationGuideWidget = ({ appsConfig }: { appsConfig: IPlatformC
             label: 'iOS',
             icon: <IconBrandApple />
         },
-        hasPlatformApps.pc && {
-            value: 'pc',
-            label: t('installation-guide.widget.pc'),
-            icon: <IconDeviceDesktop />
+        hasPlatformApps.windows && {
+            value: 'windows',
+            label: 'Windows',
+            icon: <IconBrandWindows />
+        },
+        hasPlatformApps.macos && {
+            value: 'macos',
+            label: 'macOS',
+            icon: <IconBrandApple />
+        },
+        hasPlatformApps.linux && {
+            value: 'linux',
+            label: 'Linux',
+            icon: <FaLinux /> // или другая иконка Linux
+        },
+        hasPlatformApps.androidtv && {
+            value: 'androidtv',
+            label: 'Android TV',
+            icon: <IconDeviceTv />
+        },
+        hasPlatformApps.appletv && {
+            value: 'appletv',
+            label: 'Apple TV',
+            icon: <IconDeviceTv />
+        },
+        hasPlatformApps.steamdeck && {
+            value: 'steamdeck',
+            label: 'Steam Deck',
+            icon: <IconBrandSteam />
+        },
+        hasPlatformApps.router && {
+            value: 'router',
+            label: 'Роутер',
+            icon: <IconRouter />
         }
     ].filter(Boolean) as {
         icon: React.ReactNode
@@ -115,11 +161,11 @@ export const InstallationGuideWidget = ({ appsConfig }: { appsConfig: IPlatformC
         setDefaultTab(availablePlatforms[0].value)
     }
 
-    const getAppsForPlatform = (platform: 'android' | 'ios' | 'pc') => {
+    const getAppsForPlatform = (platform: 'ios' | 'android' | 'windows' | 'macos' | 'linux' | 'androidtv' | 'appletv' | 'steamdeck' | 'router') => {
         return appsConfig[platform] || []
     }
 
-    const getSelectedAppForPlatform = (platform: 'android' | 'ios' | 'pc') => {
+    const getSelectedAppForPlatform = (platform: 'ios' | 'android' | 'windows' | 'macos' | 'linux' | 'androidtv' | 'appletv' | 'steamdeck' | 'router') => {
         const apps = getAppsForPlatform(platform)
         if (apps.length === 0) return null
         return apps[0]
@@ -152,18 +198,8 @@ export const InstallationGuideWidget = ({ appsConfig }: { appsConfig: IPlatformC
         return null
     }
 
-    const getPlatformTitle = (platform: 'android' | 'ios' | 'pc') => {
-        if (platform === 'android') {
-            return t('installation-guide.android.widget.install-and-open-app', {
-                appName: '{appName}'
-            })
-        }
-        if (platform === 'ios') {
-            return t('installation-guide.ios.widget.install-and-open-app', {
-                appName: '{appName}'
-            })
-        }
-        return t('installation-guide.pc.widget.download-app', {
+    const getPlatformTitle = (platform: 'ios' | 'android' | 'windows' | 'macos' | 'linux' | 'androidtv' | 'appletv' | 'steamdeck' | 'router') => {
+        return t('installation-guide.widget.install-and-open-app', {
             appName: '{appName}'
         })
     }
@@ -188,9 +224,10 @@ export const InstallationGuideWidget = ({ appsConfig }: { appsConfig: IPlatformC
                         onChange={(value) => setDefaultTab(value || '')}
                         placeholder={t('installation-guide.widget.select-device')}
                         radius="md"
-                        size="sm"
-                        style={{ width: 130 }}
-                        value={defaultTab}
+                        size="sm"  
+                        style={{ width: 155 }}                            
+                        value={defaultTab}                        
+                        withScrollArea={false}
                     />
                 )}
             </Group>
@@ -199,11 +236,11 @@ export const InstallationGuideWidget = ({ appsConfig }: { appsConfig: IPlatformC
                 <BaseInstallationGuideWidget
                     appsConfig={appsConfig}
                     currentLang={currentLang}
-                    firstStepTitle={getPlatformTitle(defaultTab as 'android' | 'ios' | 'pc')}
+                    firstStepTitle={getPlatformTitle(defaultTab as 'ios' | 'android' | 'windows' | 'macos' | 'linux' | 'androidtv' | 'appletv' | 'steamdeck' | 'router')}
                     getAppsForPlatform={getAppsForPlatform}
                     getSelectedAppForPlatform={getSelectedAppForPlatform}
                     openDeepLink={openDeepLink}
-                    platform={defaultTab as 'android' | 'ios' | 'pc'}
+                    platform={defaultTab as 'ios' | 'android' | 'windows' | 'macos' | 'linux' | 'androidtv' | 'appletv' | 'steamdeck' | 'router'}
                     renderFirstStepButton={renderFirstStepButton}
                 />
             )}

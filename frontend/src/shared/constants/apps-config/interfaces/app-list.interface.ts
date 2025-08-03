@@ -24,7 +24,8 @@ export interface IAppConfig {
             en: string
             fa: string
             ru: string
-        }
+        },        
+        isCopyButton?: boolean
     }
     connectAndUseStep: {
         description: {
@@ -76,7 +77,13 @@ export interface IAppConfig {
 }
 
 export interface IPlatformConfig {
-    ios: IAppConfig[]
-    android: IAppConfig[]
-    pc: IAppConfig[]
+    ios: IAppConfig[],        // iOS
+    android: IAppConfig[],    // Android
+    windows: IAppConfig[],    // Windows
+    macos: IAppConfig[],      // macOS
+    linux: IAppConfig[],      // Linux
+    androidtv: IAppConfig[],  // Android TV
+    appletv: IAppConfig[],    // Apple TV
+    steamdeck: IAppConfig[],  // Steam Deck
+    router: IAppConfig[]      // Router
 }
