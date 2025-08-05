@@ -52,7 +52,7 @@ const HappTVCode = ({ selectedApp, subscriptionData }) => {
             const encodedData = btoa(subscriptionData)
 
             // Отправляем POST запрос
-            const response = await fetch(`https://check.happ.su/sendtv/${code}`, {
+            const response = await fetch(`https://${window.location.host}/happ/sendtv/${code}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
