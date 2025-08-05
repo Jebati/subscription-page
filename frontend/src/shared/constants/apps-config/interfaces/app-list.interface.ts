@@ -4,6 +4,7 @@ export interface IAppConfig {
     isFeatured: boolean
     isNeedBase64Encoding?: boolean
     urlScheme: string
+    isRouter: boolean,
     installationStep: {
         buttons: {
             buttonLink: string

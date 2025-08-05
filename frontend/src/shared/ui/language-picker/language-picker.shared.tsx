@@ -6,9 +6,9 @@ import { useEffect, useState } from 'react'
 import classes from './LanguagePicker.module.css'
 
 const data = [
-    { label: 'English', emoji: '🇺🇸', value: 'en' },
+    //{ label: 'English', emoji: '🇺🇸', value: 'en' },
     { label: 'Русский', emoji: '🇷🇺', value: 'ru' },
-    { label: 'فارسی', emoji: '🇮🇷', value: 'fa' }
+    //{ label: 'فارسی', emoji: '🇮🇷', value: 'fa' }
 ]
 
 export function LanguagePicker() {
@@ -59,6 +59,8 @@ export function LanguagePicker() {
             {item.label}
         </Menu.Item>
     ))
+
+    return;
 
     return (
         <Menu
