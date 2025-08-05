@@ -1,854 +1,854 @@
 {
-  "ios": [
-    {
-      "id": "happ",
-      "name": "Happ",
-      "isFeatured": true,
-      "urlScheme": "https://r.stun.su/?to=happ://add/",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://apps.apple.com/ru/app/happ-proxy-utility-plus/id6746188973",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "App Store (регион Россия)"
-            }
-          },
-          {
-            "buttonLink": "https://apps.apple.com/us/app/happ-proxy-utility/id6504287215",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "App Store (другой регион)"
-            }
-          }
-        ],
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Установите из App Store в зависимости от Вашего региона Apple ID"
-        }
-      },
-      "addSubscriptionStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Откройте приложение и подключитесь к серверу"
-        }
-      },
-      "additionalAfterConnectAndUseStep": {
-        "buttons": [],
-        "title": {
-          "en": "",
-          "fa": "",
-          "ru": "Если подписка не добавилась"
-        },
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите ниже «Скопировать ссылку».\nВ Happ нажмите на Плюс ➜ «Вставить из буфера»"
-        }
-      }
-    },
-    {
-      "id": "v2raytun",
-      "name": "v2RayTun",
-      "isFeatured": false,
-      "urlScheme": "https://r.stun.su/?to=v2raytun://import/",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://apps.apple.com/ru/app/v2raytun/id6476628951",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "App Store"
-            }
-          }
-        ],
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Установите из App Store"
-        }
-      },
-      "addSubscriptionStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Откройте приложение и подключитесь к серверу"
-        }
-      },
-      "additionalAfterConnectAndUseStep": {
-        "buttons": [],
-        "title": {
-          "en": "",
-          "fa": "",
-          "ru": "Если подписка не добавилась"
-        },
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите ниже «Скопировать ссылку».\nВ v2rayTun нажмите на Плюс ➜ «Импорт из буфера»"
-        }
-      }
-    }
-  ],
-  "android": [
-    {
-      "id": "happ",
-      "name": "Happ",
-      "isFeatured": true,
-      "urlScheme": "https://r.stun.su/?to=happ://add/",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://play.google.com/store/apps/details?id=com.happproxy",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "Google Play"
-            }
-          },
-          {
-            "buttonLink": "https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "Скачать APK"
-            }
-          }
-        ],
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Установите из Google Play.\nИли установите приложение из .APK файла напрямую"
-        }
-      },
-      "addSubscriptionStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Откройте приложение и подключитесь к серверу"
-        }
-      },
-      "additionalAfterConnectAndUseStep": {
-        "buttons": [],
-        "title": {
-          "en": "",
-          "fa": "",
-          "ru": "Если подписка не добавилась"
-        },
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите ниже «Скопировать ссылку».\nВ Happ нажмите на Плюс ➜ «Вставить из буфера»"
-        }
-      }
-    },
-    {
-      "id": "v2raytun",
-      "name": "v2RayTun",
-      "isFeatured": false,
-      "urlScheme": "https://r.stun.su/?to=v2raytun://import/",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://play.google.com/store/apps/details?id=com.v2raytun.android&hl=ru",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "Google Play"
-            }
-          },
-          {
-            "buttonLink": "https://github.com/DigneZzZ/v2raytun/releases/download/3.12.46/v2RayTun_universal.apk",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "Скачать APK"
-            }
-          }
-        ],
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Установите из Google Play.\nИли установите приложение из .APK файла напрямую"
-        }
-      },
-      "addSubscriptionStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Откройте приложение и подключитесь к серверу"
-        }
-      },
-      "additionalAfterConnectAndUseStep": {
-        "buttons": [],
-        "title": {
-          "en": "",
-          "fa": "",
-          "ru": "Если подписка не добавилась"
-        },
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите ниже «Скопировать ссылку».\nВ v2rayTun нажмите на Плюс ➜ «Импорт из буфера»"
-        }
-      }
-    }
-  ],
-  "windows": [
-    {
-      "id": "koala-clash",
-      "name": "Koala Clash",
-      "isFeatured": true,
-      "urlScheme": "https://r.stun.su/?to=clash://install-config?url=",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://github.com/coolcoala/clash-verge-rev-lite/releases/download/v0.2.4/Koala.Clash_x64-setup.exe",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "Скачать для x64"
-            }
-          },
-          {
-            "buttonLink": "https://github.com/coolcoala/clash-verge-rev-lite/releases/download/v0.2.4/Koala.Clash_arm64-setup.exe",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "Скачать для arm64"
-            }
-          }
-        ],
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Скачайте и установите Koala Clash"
-        }
-      },
-      "addSubscriptionStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Выберите сервер в выпадающем списке «Прокси» и включите VPN"
-        }
-      },
-      "additionalAfterConnectAndUseStep": {
-        "buttons": [],
-        "title": {
-          "en": "",
-          "fa": "",
-          "ru": "Если подписка не добавилась"
-        },
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите ниже «Скопировать ссылку».\nВ Koala Verge перейдите в раздел «Профили», нажмите на Плюс ➜ Вставьте ссылку в текстовое поле ➜ Нажмите на кнопку «Импорт»"
-        }
-      }
-    },
-    {
-      "id": "hiddify",
-      "name": "Hiddify",
-      "isFeatured": false,
-      "urlScheme": "https://r.stun.su/?to=hiddify://import/",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://github.com/hiddify/hiddify-app/releases/download/v2.5.7/Hiddify-Windows-Setup-x64.exe",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "Скачать для x64"
-            }
-          },
-          {
-            "buttonLink": "https://apps.microsoft.com/detail/9pdfnl3qv2s5",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "Скачать из Microsoft Store"
-            }
-          }
-        ],
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Скачайте и установите Hiddify"
-        }
-      },
-      "addSubscriptionStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Подключитесь к VPN. При необходимости выберите сервер после подключения в разделе «Прокси»"
-        }
-      },
-      "additionalAfterConnectAndUseStep": {
-        "buttons": [],
-        "title": {
-          "en": "",
-          "fa": "",
-          "ru": "Если подписка не добавилась"
-        },
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите ниже «Скопировать ссылку».\nВ Hiddify нажмите на Плюс ➜ «Вставить из буфера»"
-        }
-      }
-    },
-    {
-      "id": "happ-windows",
-      "name": "Happ",
-      "isFeatured": false,
-      "urlScheme": "https://r.stun.su/?to=happ://add/",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://github.com/Happ-proxy/happ-desktop/releases/latest/download/setup-Happ.x86.exe",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "Скачать"
-            }
-          }
-        ],
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Скачайте и установите Happ"
-        }
-      },
-      "addSubscriptionStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите кнопку подключения для запуска VPN"
-        }
-      },
-      "additionalAfterConnectAndUseStep": {
-        "buttons": [],
-        "title": {
-          "en": "",
-          "fa": "",
-          "ru": "Если подписка не добавилась"
-        },
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите ниже «Скопировать ссылку».\nВ Happ нажмите снизу на кнопку «Из буфера»"
-        }
-      }
-    },
-    {
-      "id": "throne",
-      "name": "Throne",
-      "isFeatured": false,
-      "urlScheme": "https://r.stun.su/?to=nekoray://import/",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://github.com/throneproj/Throne/releases/download/1.0.0-beta.7/Throne-1.0.0-beta.7-windows64-installer.exe",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "Скачать для x64"
-            }
-          }
-        ],
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Скачайте и распакуйте Throne"
-        }
-      },
-      "addSubscriptionStep": {
-        "isCopyButton": true,
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите кнопку ниже, чтобы скопировать ссылку подписку. Далее в Throne слева сверху нажмите «Приложение» - «Добавить профиль из буфера» - «OK»"
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Справа сверху поставьте галочку «Системный прокси» (если VPN только для браузера) или «Режим TUN» (если VPN должен покрывать все приложения). Далее выберите нужную страну, нажмите правую кнопку мыши - Запустить"
-        }
-      }
-    }
-  ],
-  "macos": [
-    {
-      "id": "happ-mac",
-      "name": "Happ",
-      "isFeatured": true,
-      "urlScheme": "https://r.stun.su/?to=happ://add/",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://apps.apple.com/ru/app/happ-proxy-utility-plus/id6746188973",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "App Store (регион Россия)"
-            }
-          },
-          {
-            "buttonLink": "https://apps.apple.com/us/app/happ-proxy-utility/id6504287215",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "App Store (регион глобальный)"
-            }
-          }
-        ],
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Установите из App Store в зависимости от Вашего региона Apple ID"
-        }
-      },
-      "addSubscriptionStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Откройте приложение и подключитесь к серверу"
-        }
-      },
-      "additionalAfterConnectAndUseStep": {
-        "buttons": [],
-        "title": {
-          "en": "",
-          "fa": "",
-          "ru": "Если подписка не добавилась"
-        },
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите ниже «Скопировать ссылку».\nВ Happ нажмите на Плюс ➜ «Вставить из буфера»"
-        }
-      }
-    },
-    {
-      "id": "v2box-mac",
-      "name": "v2box",
-      "isFeatured": false,
-      "urlScheme": "https://r.stun.su/?to=v2box://install-sub?name=SilVPN&url=",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "App Store"
-            }
-          }
-        ],
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Установите из App Store"
-        }
-      },
-      "addSubscriptionStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Подключитесь к VPN в разделе «Home»"
-        }
-      },
-      "additionalAfterConnectAndUseStep": {
-        "buttons": [],
-        "title": {
-          "en": "",
-          "fa": "",
-          "ru": "Если подписка не добавилась"
-        },
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите ниже «Скопировать ссылку».\nВ v2box перейдите в раздел «Configs», нажмите Плюс ➜ «Добавить подписку» ➜ Напишите любое название и вставьте в поле URL скопированную ссылку ➜ Нажмите на «Добавить подписку»"
-        }
-      }
-    }
-  ],
-  "linux": [
-    {
-      "id": "koala-clash-linux",
-      "name": "Koala Clash",
-      "isFeatured": true,
-      "urlScheme": "https://r.stun.su/?to=clash://install-config?url=",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://github.com/coolcoala/clash-verge-rev-lite/releases",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "Скачать"
-            }
-          }
-        ],
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Скачайте и установите Koala Clash для вашего дистрибутива"
-        }
-      },
-      "addSubscriptionStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Выберите сервер в выпадающем списке «Прокси» и включите VPN"
-        }
-      },
-      "additionalAfterConnectAndUseStep": {
-        "buttons": [],
-        "title": {
-          "en": "",
-          "fa": "",
-          "ru": "Если подписка не добавилась"
-        },
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите ниже «Скопировать ссылку».\nВ Koala Verge перейдите в раздел «Профили», нажмите на Плюс ➜ Вставьте ссылку в текстовое поле ➜ Нажмите на кнопку «Импорт»"
-        }
-      }
-    },
-    {
-      "id": "hiddify-linux",
-      "name": "Hiddify",
-      "isFeatured": false,
-      "urlScheme": "https://r.stun.su/?to=hiddify://import/",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://github.com/hiddify/hiddify-app/releases",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "Скачать"
-            }
-          }
-        ],
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Скачайте и установите Hiddify для вашего дистрибутива"
-        }
-      },
-      "addSubscriptionStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Подключитесь к VPN. При необходимости выберите сервер после подключения в разделе «Прокси»"
-        }
-      },
-      "additionalAfterConnectAndUseStep": {
-        "buttons": [],
-        "title": {
-          "en": "",
-          "fa": "",
-          "ru": "Если подписка не добавилась"
-        },
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите ниже «Скопировать ссылку».\nВ Hiddify нажмите на Плюс ➜ «Вставить из буфера»"
-        }
-      }
-    },
-    {
-      "id": "throne",
-      "name": "Throne",
-      "isFeatured": false,
-      "urlScheme": "https://r.stun.su/?to=nekoray://import/",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://github.com/throneproj/Throne/releases",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "Скачать"
-            }
-          }
-        ],
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Скачайте и распакуйте Throne для вашего дистрибутива"
-        }
-      },
-      "addSubscriptionStep": {
-        "isCopyButton": true,
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите кнопку ниже, чтобы скопировать ссылку подписку. Далее в Throne слева сверху нажмите «Приложение» - «Добавить профиль из буфера» - «OK»"
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Справа сверху поставьте галочку «Системный прокси» (если VPN только для браузера) или «Режим TUN» (если VPN должен покрывать все приложения). Далее выберите нужную страну, нажмите правую кнопку мыши - Запустить"
-        }
-      }
-    }
-  ],
-  "androidtv": [
-    {
-      "id": "happ-tv",
-      "name": "Happ",
-      "isFeatured": true,
-      "urlScheme": "https://r.stun.su/?to=happ://add/",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://play.google.com/store/apps/details?id=com.happproxy",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "Google Play"
-            }
-          },
-          {
-            "buttonLink": "https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "Скачать .APK"
-            }
-          }
-        ],
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "В поиске Google Play напишите «Happ» и установите его.\nИли установите по ссылке ниже из Google Play, или скачайте .APK и установите вручную на телевизор "
-        }
-      },
-      "addSubscriptionStep": {
-        "isHappTV": true,
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "После запуска приложения на экране появится QR-код, нажмите на кнопку «Отправить через API» и Вы увидите 5-ти значный код. Ввидите код в поле ниже и нажмите кнопку «Отправить»"
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Подключитесь к серверу с помощью пульта"
-        }
-      }
-    }
-  ],
-  "appletv": [
-    {
-      "id": "happ-tvos",
-      "name": "Happ",
-      "isFeatured": true,
-      "urlScheme": "https://r.stun.su/?to=happ://add/",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://apps.apple.com/us/app/happ-proxy-utility/id6504287215",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "Открыть в App Store"
-            }
-          }
-        ],
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Установите Happ из App Store на вашем Apple TV"
-        }
-      },
-      "addSubscriptionStep": {        
-        "isHappTV": true,
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Используйте пульт Apple TV для подключения к VPN"
-        }
-      }
-    }
-  ],
-  "steamdeck": [
+    "ios": [
         {
-      "id": "throne-steamdeck",
-      "name": "Throne",
-      "isFeatured": true,
-      "urlScheme": "https://r.stun.su/?to=nekoray://import/",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://github.com/throneproj/Throne/releases/download/1.0.0/Throne-1.0.0-linux-amd64.zip",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": "Скачать"
+            "id": "happ",
+            "name": "Happ",
+            "isFeatured": true,
+            "urlScheme": "https://r.stun.su/?to=happ://add/",
+            "installationStep": {
+                "buttons": [
+                    {
+                        "buttonLink": "https://apps.apple.com/ru/app/happ-proxy-utility-plus/id6746188973",
+                        "buttonText": {
+                            "en": "App Store (Russia region)",
+                            "fa": "اپ استور (منطقه روسیه)",
+                            "ru": "App Store (регион Россия)"
+                        }
+                    },
+                    {
+                        "buttonLink": "https://apps.apple.com/us/app/happ-proxy-utility/id6504287215",
+                        "buttonText": {
+                            "en": "App Store (other regions)",
+                            "fa": "اپ استور (مناطق دیگر)",
+                            "ru": "App Store (другой регион)"
+                        }
+                    }
+                ],
+                "description": {
+                    "en": "Install from App Store depending on your Apple ID region",
+                    "fa": "بر اساس منطقه اپل آی دی خود از اپ استور نصب کنید",
+                    "ru": "Установите из App Store в зависимости от Вашего региона Apple ID"
+                }
+            },
+            "addSubscriptionStep": {
+                "description": {
+                    "en": "Click the button below to add subscription",
+                    "fa": "دکمه زیر را کلیک کنید تا اشتراک اضافه شود",
+                    "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
+                }
+            },
+            "connectAndUseStep": {
+                "description": {
+                    "en": "Open the app and connect to the server",
+                    "fa": "برنامه را باز کنید و به سرور متصل شوید",
+                    "ru": "Откройте приложение и подключитесь к серверу"
+                }
+            },
+            "additionalAfterConnectAndUseStep": {
+                "buttons": [],
+                "title": {
+                    "en": "If subscription was not added",
+                    "fa": "اگر اشتراک اضافه نشد",
+                    "ru": "Если подписка не добавилась"
+                },
+                "description": {
+                    "en": "Click \"Copy Link\" below.\nIn Happ tap Plus ➜ \"Paste from clipboard\"",
+                    "fa": "روی «کپی لینک» زیر کلیک کنید.\nدر Happ روی پلاس ➜ «چسباندن از کلیپ بورد» ضربه بزنید",
+                    "ru": "Нажмите ниже «Скопировать ссылку».\nВ Happ нажмите на Плюс ➜ «Вставить из буфера»"
+                }
             }
-          }
-        ],
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Скачайте и распакуйте Throne"
-        }
-      },
-      "addSubscriptionStep": {
-        "isCopyButton": true,
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Нажмите кнопку ниже, чтобы скопировать ссылку подписку. Далее в Throne слева сверху нажмите «Приложение» - «Добавить профиль из буфера» - «OK»"
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": "Справа сверху поставьте галочку «Системный прокси» (если VPN только для браузера) или «Режим TUN» (если VPN должен покрывать все приложения). Далее выберите нужную страну, нажмите правую кнопку мыши - Запустить"
-        }
-      }
-    }
-  ],
-  "router": [
-    {
-      "id": "router-support",
-      "name": "Установка на роутер",
-      "isFeatured": false,
-      "urlScheme": "",
-      "isRouter": true,
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "",
-            "buttonText": {
-              "en": "",
-              "fa": "",
-              "ru": ""
+        },
+        {
+            "id": "v2raytun",
+            "name": "v2RayTun",
+            "isFeatured": false,
+            "urlScheme": "https://r.stun.su/?to=v2raytun://import/",
+            "installationStep": {
+                "buttons": [
+                    {
+                        "buttonLink": "https://apps.apple.com/ru/app/v2raytun/id6476628951",
+                        "buttonText": {
+                            "en": "App Store",
+                            "fa": "اپ استور",
+                            "ru": "App Store"
+                        }
+                    }
+                ],
+                "description": {
+                    "en": "Install from App Store",
+                    "fa": "از اپ استور نصب کنید",
+                    "ru": "Установите из App Store"
+                }
+            },
+            "addSubscriptionStep": {
+                "description": {
+                    "en": "Click the button below to add subscription",
+                    "fa": "دکمه زیر را کلیک کنید تا اشتراک اضافه شود",
+                    "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
+                }
+            },
+            "connectAndUseStep": {
+                "description": {
+                    "en": "Open the app and connect to the server",
+                    "fa": "برنامه را باز کنید و به سرور متصل شوید",
+                    "ru": "Откройте приложение и подключитесь к серверу"
+                }
+            },
+            "additionalAfterConnectAndUseStep": {
+                "buttons": [],
+                "title": {
+                    "en": "If subscription was not added",
+                    "fa": "اگر اشتراک اضافه نشد",
+                    "ru": "Если подписка не добавилась"
+                },
+                "description": {
+                    "en": "Click \"Copy Link\" below.\nIn v2rayTun tap Plus ➜ \"Import from clipboard\"",
+                    "fa": "روی «کپی لینک» زیر کلیک کنید.\nدر v2rayTun روی پلاس ➜ «وارد کردن از کلیپ بورد» ضربه بزنید",
+                    "ru": "Нажмите ниже «Скопировать ссылку».\nВ v2rayTun нажмите на Плюс ➜ «Импорт из буфера»"
+                }
             }
-          }
-        ],
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": ""
         }
-      },
-      "addSubscriptionStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": ""
+    ],
+    "android": [
+        {
+            "id": "happ",
+            "name": "Happ",
+            "isFeatured": true,
+            "urlScheme": "https://r.stun.su/?to=happ://add/",
+            "installationStep": {
+                "buttons": [
+                    {
+                        "buttonLink": "https://play.google.com/store/apps/details?id=com.happproxy",
+                        "buttonText": {
+                            "en": "Google Play",
+                            "fa": "گوگل پلی",
+                            "ru": "Google Play"
+                        }
+                    },
+                    {
+                        "buttonLink": "https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk",
+                        "buttonText": {
+                            "en": "Download APK",
+                            "fa": "دانلود APK",
+                            "ru": "Скачать APK"
+                        }
+                    }
+                ],
+                "description": {
+                    "en": "Install from Google Play.\nOr install the app from .APK file directly",
+                    "fa": "از گوگل پلی نصب کنید.\nیا برنامه را مستقیماً از فایل .APK نصب کنید",
+                    "ru": "Установите из Google Play.\nИли установите приложение из .APK файла напрямую"
+                }
+            },
+            "addSubscriptionStep": {
+                "description": {
+                    "en": "Click the button below to add subscription",
+                    "fa": "دکمه زیر را کلیک کنید تا اشتراک اضافه شود",
+                    "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
+                }
+            },
+            "connectAndUseStep": {
+                "description": {
+                    "en": "Open the app and connect to the server",
+                    "fa": "برنامه را باز کنید و به سرور متصل شوید",
+                    "ru": "Откройте приложение и подключитесь к серверу"
+                }
+            },
+            "additionalAfterConnectAndUseStep": {
+                "buttons": [],
+                "title": {
+                    "en": "If subscription was not added",
+                    "fa": "اگر اشتراک اضافه نشد",
+                    "ru": "Если подписка не добавилась"
+                },
+                "description": {
+                    "en": "Click \"Copy Link\" below.\nIn Happ tap Plus ➜ \"Paste from clipboard\"",
+                    "fa": "روی «کپی لینک» زیر کلیک کنید.\nدر Happ روی پلاس ➜ «چسباندن از کلیپ بورد» ضربه بزنید",
+                    "ru": "Нажмите ниже «Скопировать ссылку».\nВ Happ нажмите на Плюс ➜ «Вставить из буфера»"
+                }
+            }
+        },
+        {
+            "id": "v2raytun",
+            "name": "v2RayTun",
+            "isFeatured": false,
+            "urlScheme": "https://r.stun.su/?to=v2raytun://import/",
+            "installationStep": {
+                "buttons": [
+                    {
+                        "buttonLink": "https://play.google.com/store/apps/details?id=com.v2raytun.android&hl=ru",
+                        "buttonText": {
+                            "en": "Google Play",
+                            "fa": "گوگل پلی",
+                            "ru": "Google Play"
+                        }
+                    },
+                    {
+                        "buttonLink": "https://github.com/DigneZzZ/v2raytun/releases/download/3.12.46/v2RayTun_universal.apk",
+                        "buttonText": {
+                            "en": "Download APK",
+                            "fa": "دانلود APK",
+                            "ru": "Скачать APK"
+                        }
+                    }
+                ],
+                "description": {
+                    "en": "Install from Google Play.\nOr install the app from .APK file directly",
+                    "fa": "از گوگل پلی نصب کنید.\nیا برنامه را مستقیماً از فایل .APK نصب کنید",
+                    "ru": "Установите из Google Play.\nИли установите приложение из .APK файла напрямую"
+                }
+            },
+            "addSubscriptionStep": {
+                "description": {
+                    "en": "Click the button below to add subscription",
+                    "fa": "دکمه زیر را کلیک کنید تا اشتراک اضافه شود",
+                    "ru": "Нажمите кнопку ниже, чтобы добавить подписку"
+                }
+            },
+            "connectAndUseStep": {
+                "description": {
+                    "en": "Open the app and connect to the server",
+                    "fa": "برنامه را باز کنید و به سرور متصل شوید",
+                    "ru": "Откройте приложение и подключитесь к серверу"
+                }
+            },
+            "additionalAfterConnectAndUseStep": {
+                "buttons": [],
+                "title": {
+                    "en": "If subscription was not added",
+                    "fa": "اگر اشتراک اضافه نشد",
+                    "ru": "Если подписка не добавилась"
+                },
+                "description": {
+                    "en": "Click \"Copy Link\" below.\nIn v2rayTun tap Plus ➜ \"Import from clipboard\"",
+                    "fa": "روی «کپی لینک» زیر کلیک کنید.\nدر v2rayTun روی پلاس ➜ «وارد کردن از کلیپ بورد» ضربه بزنید",
+                    "ru": "Нажмите ниже «Скопировать ссылку».\nВ v2rayTun нажмите на Плюс ➜ «Импорт из буфера»"
+                }
+            }
         }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "en": "",
-          "fa": "",
-          "ru": ""
+    ],
+    "windows": [
+        {
+            "id": "koala-clash",
+            "name": "Koala Clash",
+            "isFeatured": true,
+            "urlScheme": "https://r.stun.su/?to=clash://install-config?url=",
+            "installationStep": {
+                "buttons": [
+                    {
+                        "buttonLink": "https://github.com/coolcoala/clash-verge-rev-lite/releases/download/v0.2.4/Koala.Clash_x64-setup.exe",
+                        "buttonText": {
+                            "en": "Download for x64",
+                            "fa": "دانلود برای x64",
+                            "ru": "Скачать для x64"
+                        }
+                    },
+                    {
+                        "buttonLink": "https://github.com/coolcoala/clash-verge-rev-lite/releases/download/v0.2.4/Koala.Clash_arm64-setup.exe",
+                        "buttonText": {
+                            "en": "Download for arm64",
+                            "fa": "دانلود برای arm64",
+                            "ru": "Скачать для arm64"
+                        }
+                    }
+                ],
+                "description": {
+                    "en": "Download and install Koala Clash",
+                    "fa": "Koala Clash را دانلود و نصب کنید",
+                    "ru": "Скачайте и установите Koala Clash"
+                }
+            },
+            "addSubscriptionStep": {
+                "description": {
+                    "en": "Click the button below to add subscription",
+                    "fa": "دکمه زیر را کلیک کنید تا اشتراک اضافه شود",
+                    "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
+                }
+            },
+            "connectAndUseStep": {
+                "description": {
+                    "en": "Select server in the \"Proxy\" dropdown and enable VPN",
+                    "fa": "سرور را در فهرست کشویی «پروکسی» انتخاب کنید و VPN را فعال کنید",
+                    "ru": "Выберите сервер в выпадающем списке «Прокси» и включите VPN"
+                }
+            },
+            "additionalAfterConnectAndUseStep": {
+                "buttons": [],
+                "title": {
+                    "en": "If subscription was not added",
+                    "fa": "اگر اشتراک اضافه نشد",
+                    "ru": "Если подписка не добавилась"
+                },
+                "description": {
+                    "en": "Click \"Copy Link\" below.\nIn Koala Verge go to \"Profiles\" section, click Plus ➜ Paste the link into the text field ➜ Click \"Import\" button",
+                    "fa": "روی «کپی لینک» زیر کلیک کنید.\nدر Koala Verge به بخش «پروفایل‌ها» بروید، روی پلاس کلیک کنید ➜ لینک را در فیلد متنی بچسبانید ➜ روی دکمه «وارد کردن» کلیک کنید",
+                    "ru": "Нажмите ниже «Скопировать ссылку».\nВ Koala Verge перейдите в раздел «Профили», нажмите на Плюс ➜ Вставьте ссылку в текстовое поле ➜ Нажмите на кнопку «Импорт»"
+                }
+            }
+        },
+        {
+            "id": "hiddify",
+            "name": "Hiddify",
+            "isFeatured": false,
+            "urlScheme": "https://r.stun.su/?to=hiddify://import/",
+            "installationStep": {
+                "buttons": [
+                    {
+                        "buttonLink": "https://github.com/hiddify/hiddify-app/releases/download/v2.5.7/Hiddify-Windows-Setup-x64.exe",
+                        "buttonText": {
+                            "en": "Download for x64",
+                            "fa": "دانلود برای x64",
+                            "ru": "Скачать для x64"
+                        }
+                    },
+                    {
+                        "buttonLink": "https://apps.microsoft.com/detail/9pdfnl3qv2s5",
+                        "buttonText": {
+                            "en": "Download from Microsoft Store",
+                            "fa": "دانلود از مایکروسافت استور",
+                            "ru": "Установить из Microsoft Store"
+                        }
+                    }
+                ],
+                "description": {
+                    "en": "Download and install Hiddify",
+                    "fa": "Hiddify را دانلود و نصب کنید",
+                    "ru": "Скачайте и установите Hiddify"
+                }
+            },
+            "addSubscriptionStep": {
+                "description": {
+                    "en": "Click the button below to add subscription",
+                    "fa": "دکمه زیر را کلیک کنید تا اشتراک اضافه شود",
+                    "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
+                }
+            },
+            "connectAndUseStep": {
+                "description": {
+                    "en": "Connect to VPN. If needed, select server after connection in \"Proxy\" section",
+                    "fa": "به VPN متصل شوید. در صورت نیاز، پس از اتصال سرور را در بخش «پروکسی» انتخاب کنید",
+                    "ru": "Подключитесь к VPN. При необходимости выберите сервер после подключения в разделе «Прокси»"
+                }
+            },
+            "additionalAfterConnectAndUseStep": {
+                "buttons": [],
+                "title": {
+                    "en": "If subscription was not added",
+                    "fa": "اگر اشتراک اضافه نشد",
+                    "ru": "Если подписка не добавилась"
+                },
+                "description": {
+                    "en": "Click \"Copy Link\" below.\nIn Hiddify click Plus ➜ \"Paste from clipboard\"",
+                    "fa": "روی «کپی لینک» زیر کلیک کنید.\nدر Hiddify روی پلاس کلیک کنید ➜ «چسباندن از کلیپ بورد»",
+                    "ru": "Нажмите ниже «Скопировать ссылку».\nВ Hiddify нажмите на Плюс ➜ «Вставить из буфера»"
+                }
+            }
+        },
+        {
+            "id": "happ-windows",
+            "name": "Happ",
+            "isFeatured": false,
+            "urlScheme": "https://r.stun.su/?to=happ://add/",
+            "installationStep": {
+                "buttons": [
+                    {
+                        "buttonLink": "https://github.com/Happ-proxy/happ-desktop/releases/latest/download/setup-Happ.x86.exe",
+                        "buttonText": {
+                            "en": "Download",
+                            "fa": "دانلود",
+                            "ru": "Скачать"
+                        }
+                    }
+                ],
+                "description": {
+                    "en": "Download and install Happ",
+                    "fa": "Happ را دانلود و نصب کنید",
+                    "ru": "Скачайте и установите Happ"
+                }
+            },
+            "addSubscriptionStep": {
+                "description": {
+                    "en": "Click the button below to add subscription",
+                    "fa": "دکمه زیر را کلیک کنید تا اشتراک اضافه شود",
+                    "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
+                }
+            },
+            "connectAndUseStep": {
+                "description": {
+                    "en": "Click the connect button to start VPN",
+                    "fa": "روی دکمه اتصال کلیک کنید تا VPN راه‌اندازی شود",
+                    "ru": "Нажмите кнопку подключения для запуска VPN"
+                }
+            },
+            "additionalAfterConnectAndUseStep": {
+                "buttons": [],
+                "title": {
+                    "en": "If subscription was not added",
+                    "fa": "اگر اشتراک اضافه نشد",
+                    "ru": "Если подписка не добавилась"
+                },
+                "description": {
+                    "en": "Click \"Copy Link\" below.\nIn Happ click the \"From clipboard\" button at the bottom",
+                    "fa": "روی «کپی لینک» زیر کلیک کنید.\nدر Happ روی دکمه «از کلیپ بورد» در پایین کلیک کنید",
+                    "ru": "Нажмите ниже «Скопировать ссылку».\nВ Happ нажмите снизу на кнопку «Из буфера»"
+                }
+            }
+        },
+        {
+            "id": "throne",
+            "name": "Throne",
+            "isFeatured": false,
+            "urlScheme": "https://r.stun.su/?to=nekoray://import/",
+            "installationStep": {
+                "buttons": [
+                    {
+                        "buttonLink": "https://github.com/throneproj/Throne/releases/download/1.0.0-beta.7/Throne-1.0.0-beta.7-windows64-installer.exe",
+                        "buttonText": {
+                            "en": "Download for x64",
+                            "fa": "دانلود برای x64",
+                            "ru": "Скачать для x64"
+                        }
+                    }
+                ],
+                "description": {
+                    "en": "Download and extract Throne",
+                    "fa": "Throne را دانلود و استخراج کنید",
+                    "ru": "Скачайте и распакуйте Throne"
+                }
+            },
+            "addSubscriptionStep": {
+                "isCopyButton": true,
+                "description": {
+                    "en": "Click the button below to copy subscription link. Then in Throne click \"Application\" at the top left - \"Add profile from clipboard\" - \"OK\"",
+                    "fa": "دکمه زیر را کلیک کنید تا لینک اشتراک کپی شود. سپس در Throne روی «برنامه» در بالا سمت چپ کلیک کنید - «اضافه کردن پروفایل از کلیپ بورد» - «تأیید»",
+                    "ru": "Нажмите кнопку ниже, чтобы скопировать ссылку подписку. Далее в Throne слева сверху нажмите «Приложение» - «Добавить профиль из буфера» - «OK»"
+                }
+            },
+            "connectAndUseStep": {
+                "description": {
+                    "en": "At the top right, check \"System proxy\" (if VPN is only for browser) or \"TUN mode\" (if VPN should cover all applications). Then select the desired country, right-click - Start",
+                    "fa": "در بالا سمت راست، «پروکسی سیستم» را علامت بزنید (اگر VPN فقط برای مرورگر است) یا «حالت TUN» (اگر VPN باید همه برنامه‌ها را پوشش دهد). سپس کشور مورد نظر را انتخاب کنید، کلیک راست - شروع",
+                    "ru": "Справа сверху поставьте галочку «Системный прокси» (если VPN только для браузера) или «Режим TUN» (если VPN должен покрывать все приложения). Далее выберите нужную страну, нажмите правую кнопку мыши - Запустить"
+                }
+            }
         }
-      }
-    }
-  ]
+    ],
+    "macos": [
+        {
+            "id": "happ-mac",
+            "name": "Happ",
+            "isFeatured": true,
+            "urlScheme": "https://r.stun.su/?to=happ://add/",
+            "installationStep": {
+                "buttons": [
+                    {
+                        "buttonLink": "https://apps.apple.com/ru/app/happ-proxy-utility-plus/id6746188973",
+                        "buttonText": {
+                            "en": "App Store (Russia region)",
+                            "fa": "اپ استور (منطقه روسیه)",
+                            "ru": "App Store (регион Россия)"
+                        }
+                    },
+                    {
+                        "buttonLink": "https://apps.apple.com/us/app/happ-proxy-utility/id6504287215",
+                        "buttonText": {
+                            "en": "App Store (global region)",
+                            "fa": "اپ استور (منطقه جهانی)",
+                            "ru": "App Store (регион глобальный)"
+                        }
+                    }
+                ],
+                "description": {
+                    "en": "Install from App Store depending on your Apple ID region",
+                    "fa": "بر اساس منطقه اپل آی دی خود از اپ استور نصب کنید",
+                    "ru": "Установите из App Store в зависимости от Вашего региона Apple ID"
+                }
+            },
+            "addSubscriptionStep": {
+                "description": {
+                    "en": "Click the button below to add subscription",
+                    "fa": "دکمه زیر را کلیک کنید تا اشتراک اضافه شود",
+                    "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
+                }
+            },
+            "connectAndUseStep": {
+                "description": {
+                    "en": "Open the app and connect to the server",
+                    "fa": "برنامه را باز کنید و به سرور متصل شوید",
+                    "ru": "Откройте приложение и подключитесь к серверу"
+                }
+            },
+            "additionalAfterConnectAndUseStep": {
+                "buttons": [],
+                "title": {
+                    "en": "If subscription was not added",
+                    "fa": "اگر اشتراک اضافه نشد",
+                    "ru": "Если подписка не добавилась"
+                },
+                "description": {
+                    "en": "Click \"Copy Link\" below.\nIn Happ click Plus ➜ \"Paste from clipboard\"",
+                    "fa": "روی «کپی لینک» زیر کلیک کنید.\nدر Happ روی پلاس ➜ «چسباندن از کلیپ بورد» ضربه بزنید",
+                    "ru": "Нажмите ниже «Скопировать ссылку».\nВ Happ нажмите на Плюс ➜ «Вставить из буфера»"
+                }
+            }
+        },
+        {
+            "id": "v2box-mac",
+            "name": "v2box",
+            "isFeatured": false,
+            "urlScheme": "https://r.stun.su/?to=v2box://install-sub?name=SilVPN&url=",
+            "installationStep": {
+                "buttons": [
+                    {
+                        "buttonLink": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
+                        "buttonText": {
+                            "en": "App Store",
+                            "fa": "اپ استور",
+                            "ru": "App Store"
+                        }
+                    }
+                ],
+                "description": {
+                    "en": "Install from App Store",
+                    "fa": "از اپ استور نصب کنید",
+                    "ru": "Установите из App Store"
+                }
+            },
+            "addSubscriptionStep": {
+                "description": {
+                    "en": "Click the button below to add subscription",
+                    "fa": "دکمه زیر را کلیک کنید تا اشتراک اضافه شود",
+                    "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
+                }
+            },
+            "connectAndUseStep": {
+                "description": {
+                    "en": "Connect to VPN in the \"Home\" section",
+                    "fa": "در بخش «خانه» به VPN متصل شوید",
+                    "ru": "Подключитесь к VPN в разделе «Home»"
+                }
+            },
+            "additionalAfterConnectAndUseStep": {
+                "buttons": [],
+                "title": {
+                    "en": "If subscription was not added",
+                    "fa": "اگر اشتراک اضافه نشد",
+                    "ru": "Если подписка не добавилась"
+                },
+                "description": {
+                    "en": "Click \"Copy Link\" below.\nIn v2box go to \"Configs\" section, click Plus ➜ \"Add subscription\" ➜ Enter any name and paste the copied link in the URL field ➜ Click \"Add subscription\"",
+                    "fa": "روی «کپی لینک» زیر کلیک کنید.\nدر v2box به بخش «تنظیمات» بروید، روی پلاس کلیک کنید ➜ «اضافه کردن اشتراک» ➜ نام دلخواه وارد کنید و لینک کپی شده را در فیلد URL بچسبانید ➜ روی «اضافه کردن اشتراک» کلیک کنید",
+                    "ru": "Нажмите ниже «Скопировать ссылку».\nВ v2box перейдите в раздел «Configs», нажмите Плюс ➜ «Добавить подписку» ➜ Напишите любое название и вставьте в поле URL скопированную ссылку ➜ Нажмите на «Добавить подписку»"
+                }
+            }
+        }
+    ],
+    "linux": [
+        {
+            "id": "koala-clash-linux",
+            "name": "Koala Clash",
+            "isFeatured": true,
+            "urlScheme": "https://r.stun.su/?to=clash://install-config?url=",
+            "installationStep": {
+                "buttons": [
+                    {
+                        "buttonLink": "https://github.com/coolcoala/clash-verge-rev-lite/releases",
+                        "buttonText": {
+                            "en": "Download",
+                            "fa": "دانلود",
+                            "ru": "Скачать"
+                        }
+                    }
+                ],
+                "description": {
+                    "en": "Download and install Koala Clash for your distribution",
+                    "fa": "Koala Clash را برای توزیع خود دانلود و نصب کنید",
+                    "ru": "Скачайте и установите Koala Clash для вашего дистрибутива"
+                }
+            },
+            "addSubscriptionStep": {
+                "description": {
+                    "en": "Click the button below to add subscription",
+                    "fa": "دکمه زیر را کلیک کنید تا اشتراک اضافه شود",
+                    "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
+                }
+            },
+            "connectAndUseStep": {
+                "description": {
+                    "en": "Select server in the \"Proxy\" dropdown and enable VPN",
+                    "fa": "سرور را در فهرست کشویی «پروکسی» انتخاب کنید و VPN را فعال کنید",
+                    "ru": "Выберите сервер в выпадающем списке «Прокси» и включите VPN"
+                }
+            },
+            "additionalAfterConnectAndUseStep": {
+                "buttons": [],
+                "title": {
+                    "en": "If subscription was not added",
+                    "fa": "اگر اشتراک اضافه نشد",
+                    "ru": "Если подписка не добавилась"
+                },
+                "description": {
+                    "en": "Click \"Copy Link\" below.\nIn Koala Verge go to \"Profiles\" section, click Plus ➜ Paste the link into the text field ➜ Click \"Import\" button",
+                    "fa": "روی «کپی لینک» زیر کلیک کنید.\nدر Koala Verge به بخش «پروفایل‌ها» بروید، روی پلاس کلیک کنید ➜ لینک را در فیلد متنی بچسبانید ➜ روی دکمه «وارد کردن» کلیک کنید",
+                    "ru": "Нажмите ниже «Скопировать ссылку».\nВ Koala Verge перейдите в раздел «Профили», нажмите на Плюс ➜ Вставьте ссылку в текстовое поле ➜ Нажмите на кнопку «Импорт»"
+                }
+            }
+        },
+        {
+            "id": "hiddify-linux",
+            "name": "Hiddify",
+            "isFeatured": false,
+            "urlScheme": "https://r.stun.su/?to=hiddify://import/",
+            "installationStep": {
+                "buttons": [
+                    {
+                        "buttonLink": "https://github.com/hiddify/hiddify-app/releases",
+                        "buttonText": {
+                            "en": "Download",
+                            "fa": "دانلود",
+                            "ru": "Скачать"
+                        }
+                    }
+                ],
+                "description": {
+                    "en": "Download and install Hiddify for your distribution",
+                    "fa": "Hiddify را برای توزیع خود دانلود و نصب کنید",
+                    "ru": "Скачайте и установите Hiddify для вашего дистрибутива"
+                }
+            },
+            "addSubscriptionStep": {
+                "description": {
+                    "en": "Click the button below to add subscription",
+                    "fa": "دکمه زیر را کلیک کنید تا اشتراک اضافه شود",
+                    "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
+                }
+            },
+            "connectAndUseStep": {
+                "description": {
+                    "en": "Connect to VPN. If needed, select server after connection in \"Proxy\" section",
+                    "fa": "به VPN متصل شوید. در صورت نیاز، پس از اتصال سرور را در بخش «پروکسی» انتخاب کنید",
+                    "ru": "Подключитесь к VPN. При необходимости выберите сервер после подключения в разделе «Прокси»"
+                }
+            },
+            "additionalAfterConnectAndUseStep": {
+                "buttons": [],
+                "title": {
+                    "en": "If subscription was not added",
+                    "fa": "اگر اشتراک اضافه نشد",
+                    "ru": "Если подписка не добавилась"
+                },
+                "description": {
+                    "en": "Click \"Copy Link\" below.\nIn Hiddify click Plus ➜ \"Paste from clipboard\"",
+                    "fa": "روی «کپی لینک» زیر کلیک کنید.\nدر Hiddify روی پلاس کلیک کنید ➜ «چسباندن از کلیپ بورد»",
+                    "ru": "Нажмите ниже «Скопировать ссылку».\nВ Hiddify нажмите на Плюс ➜ «Вставить из буфера»"
+                }
+            }
+        },
+        {
+            "id": "throne",
+            "name": "Throne",
+            "isFeatured": false,
+            "urlScheme": "https://r.stun.su/?to=nekoray://import/",
+            "installationStep": {
+                "buttons": [
+                    {
+                        "buttonLink": "https://github.com/throneproj/Throne/releases",
+                        "buttonText": {
+                            "en": "Download",
+                            "fa": "دانلود",
+                            "ru": "Скачать"
+                        }
+                    }
+                ],
+                "description": {
+                    "en": "Download and extract Throne for your distribution",
+                    "fa": "Throne را برای توزیع خود دانلود و استخراج کنید",
+                    "ru": "Скачайте и распакуйте Throne для вашего дистрибутива"
+                }
+            },
+            "addSubscriptionStep": {
+                "isCopyButton": true,
+                "description": {
+                    "en": "Click the button below to copy subscription link. Then in Throne click \"Application\" at the top left - \"Add profile from clipboard\" - \"OK\"",
+                    "fa": "دکمه زیر را کلیک کنید تا لینک اشتراک کپی شود. سپس در Throne روی «برنامه» در بالا سمت چپ کلیک کنید - «اضافه کردن پروفایل از کلیپ بورد» - «تأیید»",
+                    "ru": "Нажмите кнопку ниже, чтобы скопировать ссылку подписку. Далее в Throne слева сверху нажмите «Приложение» - «Добавить профиль из буфера» - «OK»"
+                }
+            },
+            "connectAndUseStep": {
+                "description": {
+                    "en": "At the top right, check \"System proxy\" (if VPN is only for browser) or \"TUN mode\" (if VPN should cover all applications). Then select the desired country, right-click - Start",
+                    "fa": "در بالا سمت راست، «پروکسی سیستم» را علامت بزنید (اگر VPN فقط برای مرورگر است) یا «حالت TUN» (اگر VPN باید همه برنامه‌ها را پوشش دهد). سپس کشور مورد نظر را انتخاب کنید، کلیک راست - شروع",
+                    "ru": "Справа сверху поставьте галочку «Системный прокси» (если VPN только для браузера) или «Режим TUN» (если VPN должен покрывать все приложения). Далее выберите нужную страну, нажмите правую кнопку мыши - Запустить"
+                }
+            }
+        }
+    ],
+    "androidtv": [
+        {
+            "id": "happ-tv",
+            "name": "Happ",
+            "isFeatured": true,
+            "urlScheme": "https://r.stun.su/?to=happ://add/",
+            "installationStep": {
+                "buttons": [
+                    {
+                        "buttonLink": "https://play.google.com/store/apps/details?id=com.happproxy",
+                        "buttonText": {
+                            "en": "Google Play",
+                            "fa": "گوگل پلی",
+                            "ru": "Google Play"
+                        }
+                    },
+                    {
+                        "buttonLink": "https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk",
+                        "buttonText": {
+                            "en": "Download .APK",
+                            "fa": "دانلود .APK",
+                            "ru": "Скачать .APK"
+                        }
+                    }
+                ],
+                "description": {
+                    "en": "Search for \"Happ\" in Google Play and install it.\nOr install via the link below from Google Play, or download the .APK and install manually on TV",
+                    "fa": "در گوگل پلی «Happ» را جستجو کنید و آن را نصب کنید.\nیا از طریق لینک زیر از گوگل پلی نصب کنید، یا .APK را دانلود کنید و به صورت دستی روی تلویزیون نصب کنید",
+                    "ru": "В поиске Google Play напишите «Happ» и установите его.\nИли установите по ссылке ниже из Google Play, или скачайте .APK и установите вручную на телевизор "
+                }
+            },
+            "addSubscriptionStep": {
+                "isHappTV": true,
+                "description": {
+                    "en": "After launching the app, a QR code will appear on screen, click \"Send via API\" button and you will see a 5-digit code. Enter the code in the field below and click \"Send\" button",
+                    "fa": "پس از راه‌اندازی برنامه، یک کد QR روی صفحه ظاهر می‌شود، روی دکمه «ارسال از طریق API» کلیک کنید و کد 5 رقمی را خواهید دید. کد را در فیلد زیر وارد کنید و روی دکمه «ارسال» کلیک کنید",
+                    "ru": "После запуска приложения на экране появится QR-код, нажмите на кнопку «Отправить через API» и Вы увидите 5-ти значный код. Ввидите код в поле ниже и нажмите кнопку «Отправить»"
+                }
+            },
+            "connectAndUseStep": {
+                "description": {
+                    "en": "Connect to server using the remote control",
+                    "fa": "با استفاده از کنترل از راه دور به سرور متصل شوید",
+                    "ru": "Подключитесь к серверу с помощью пульта"
+                }
+            }
+        }
+    ],
+    "appletv": [
+        {
+            "id": "happ-tvos",
+            "name": "Happ",
+            "isFeatured": true,
+            "urlScheme": "https://r.stun.su/?to=happ://add/",
+            "installationStep": {
+                "buttons": [
+                    {
+                        "buttonLink": "https://apps.apple.com/us/app/happ-proxy-utility/id6504287215",
+                        "buttonText": {
+                            "en": "Open in App Store",
+                            "fa": "باز کردن در اپ استور",
+                            "ru": "Открыть в App Store"
+                        }
+                    }
+                ],
+                "description": {
+                    "en": "Install Happ from App Store on your Apple TV",
+                    "fa": "Happ را از اپ استور روی Apple TV خود نصب کنید",
+                    "ru": "Установите Happ из App Store на вашем Apple TV"
+                }
+            },
+            "addSubscriptionStep": {
+                "isHappTV": true,
+                "description": {
+                    "en": "Click the button below to add subscription",
+                    "fa": "دکمه زیر را کلیک کنید تا اشتراک اضافه شود",
+                    "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
+                }
+            },
+            "connectAndUseStep": {
+                "description": {
+                    "en": "Use Apple TV remote to connect to VPN",
+                    "fa": "از ریموت Apple TV برای اتصال به VPN استفاده کنید",
+                    "ru": "Используйте пульт Apple TV для подключения к VPN"
+                }
+            }
+        }
+    ],
+    "steamdeck": [
+        {
+            "id": "throne-steamdeck",
+            "name": "Throne",
+            "isFeatured": true,
+            "urlScheme": "https://r.stun.su/?to=nekoray://import/",
+            "installationStep": {
+                "buttons": [
+                    {
+                        "buttonLink": "https://github.com/throneproj/Throne/releases/download/1.0.0/Throne-1.0.0-linux-amd64.zip",
+                        "buttonText": {
+                            "en": "Download",
+                            "fa": "دانلود",
+                            "ru": "Скачать"
+                        }
+                    }
+                ],
+                "description": {
+                    "en": "Download and extract Throne",
+                    "fa": "Throne را دانلود و استخراج کنید",
+                    "ru": "Скачайте и распакуйте Throne"
+                }
+            },
+            "addSubscriptionStep": {
+                "isCopyButton": true,
+                "description": {
+                    "en": "Click the button below to copy subscription link. Then in Throne click \"Application\" at the top left - \"Add profile from clipboard\" - \"OK\"",
+                    "fa": "دکمه زیر را کلیک کنید تا لینک اشتراک کپی شود. سپس در Throne روی «برنامه» در بالا سمت چپ کلیک کنید - «اضافه کردن پروفایل از کلیپ بورد» - «تأیید»",
+                    "ru": "Нажмите кнопку ниже, чтобы скопировать ссылку подписку. Далее в Throne слева сверху нажмите «Приложение» - «Добавить профиль из буфера» - «OK»"
+                }
+            },
+            "connectAndUseStep": {
+                "description": {
+                    "en": "At the top right, check \"System proxy\" (if VPN is only for browser) or \"TUN mode\" (if VPN should cover all applications). Then select the desired country, right-click - Start",
+                    "fa": "در بالا سمت راست، «پروکسی سیستم» را علامت بزنید (اگر VPN فقط برای مرورگر است) یا «حالت TUN» (اگر VPN باید همه برنامه‌ها را پوشش دهد). سپس کشور مورد نظر را انتخاب کنید، کلیک راست - شروع",
+                    "ru": "Справа сверху поставьте галочку «Системный прокси» (если VPN только для браузера) или «Режим TUN» (если VPN должен покрывать все приложения). Далее выберите нужную страну, нажмите правую кнопку мыши - Запустить"
+                }
+            }
+        }
+    ],
+    "router": [
+        {
+            "id": "router-support",
+            "name": "Router Installation",
+            "isFeatured": false,
+            "urlScheme": "",
+            "isRouter": true,
+            "installationStep": {
+                "buttons": [
+                    {
+                        "buttonLink": "",
+                        "buttonText": {
+                            "en": "",
+                            "fa": "",
+                            "ru": ""
+                        }
+                    }
+                ],
+                "description": {
+                    "en": "",
+                    "fa": "",
+                    "ru": ""
+                }
+            },
+            "addSubscriptionStep": {
+                "description": {
+                    "en": "",
+                    "fa": "",
+                    "ru": ""
+                }
+            },
+            "connectAndUseStep": {
+                "description": {
+                    "en": "",
+                    "fa": "",
+                    "ru": ""
+                }
+            }
+        }
+    ]
 }
