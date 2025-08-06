@@ -128,9 +128,9 @@
                     {
                         "buttonLink": "https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk",
                         "buttonText": {
-                            "en": "Download APK",
-                            "fa": "دانلود APK",
-                            "ru": "Скачать APK"
+                            "en": "Download .APK",
+                            "fa": "دانلود .APK",
+                            "ru": "Скачать .APK"
                         }
                     }
                 ],
@@ -186,9 +186,9 @@
                     {
                         "buttonLink": "https://github.com/DigneZzZ/v2raytun/releases/download/3.12.46/v2RayTun_universal.apk",
                         "buttonText": {
-                            "en": "Download APK",
-                            "fa": "دانلود APK",
-                            "ru": "Скачать APK"
+                            "en": "Download .APK",
+                            "fa": "دانلود .APK",
+                            "ru": "Скачать .APK"
                         }
                     }
                 ],
@@ -413,7 +413,7 @@
                 "description": {
                     "en": "Download and extract Throne",
                     "fa": "Throne را دانلود و استخراج کنید",
-                    "ru": "Скачайте и распакуйте Throne"
+                    "ru": "Скачайте и установите Throne"
                 }
             },
             "addSubscriptionStep": {
@@ -744,7 +744,7 @@
                         "buttonText": {
                             "en": "Open in App Store",
                             "fa": "باز کردن در اپ استور",
-                            "ru": "Открыть в App Store"
+                            "ru": "App Store"
                         }
                     }
                 ],
@@ -757,16 +757,16 @@
             "addSubscriptionStep": {
                 "isHappTV": true,
                 "description": {
-                    "en": "Click the button below to add subscription",
-                    "fa": "دکمه زیر را کلیک کنید تا اشتراک اضافه شود",
-                    "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
+                    "en": "After launching the app, a QR code will appear on screen, click \"Send via API\" button and you will see a 5-digit code. Enter the code in the field below and click \"Send\" button",
+                    "fa": "پس از راه‌اندازی برنامه، یک کد QR روی صفحه ظاهر می‌شود، روی دکمه «ارسال از طریق API» کلیک کنید و کد 5 رقمی را خواهید دید. کد را در فیلد زیر وارد کنید و روی دکمه «ارسال» کلیک کنید",
+                    "ru": "После запуска приложения на экране появится QR-код, нажмите на кнопку «Отправить через API» и Вы увидите 5-ти значный код. Ввидите код в поле ниже и нажмите кнопку «Отправить»"
                 }
             },
             "connectAndUseStep": {
                 "description": {
-                    "en": "Use Apple TV remote to connect to VPN",
-                    "fa": "از ریموت Apple TV برای اتصال به VPN استفاده کنید",
-                    "ru": "Используйте пульт Apple TV для подключения к VPN"
+                    "en": "Connect to server using the remote control",
+                    "fa": "با استفاده از کنترل از راه دور به سرور متصل شوید",
+                    "ru": "Подключитесь к серверу с помощью пульта"
                 }
             }
         }
@@ -791,7 +791,7 @@
                 "description": {
                     "en": "Download and extract Throne",
                     "fa": "Throne را دانلود و استخراج کنید",
-                    "ru": "Скачайте и распакуйте Throne"
+                    "ru": "Скачайте и распакуйте Throne. Запустите файл Throne"
                 }
             },
             "addSubscriptionStep": {
